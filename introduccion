@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>UNAD OVA</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+<nav class="navbar navbar-dark bg-dark" style="background-color:  #005883;">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Navbar</a>
+    </div>
+    <div class="collapse navbar-collapse pull-right" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Inicio</a></li>
+        <li class="dropdown"><a href="lecturas.html">Lecturas</a>
+      		<ul class="dropdown-menu">
+				<li><a href="lectura 1">lectura 1</a></li>
+				<li><a href="lectura 2">lectura 2</a></li>
+				<li><a href="lectura 3">lectura 3</a></li>
+				<li><a href="lectura 4">lectura 4</a></li>
+				<li><a href="lectura 5">lectura 5</a></li>
+			</ul>
+		</li>
+        <li><a href="#">Multimedia</a></li>
+        <li><a href="#">Actividades</a></li>
+        <li><a href="#">Autores</a></li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+		<div class="breadcrumb-area ">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="page-title">
+							<h2>INTRODUCCIÓN DISEÑO WEB</h2>
+							<ul class="breadcrumb">
+							   <p>El diseño de un sitio web es muy importante, ya que esté es el que le da estilo y forma, este debe seguir unos lineamientos para finalmente se agradable e intuitivo al usuario.
+
+								Se debe tener en cuenta aspectos fundamentales como tendencias del diseño, colores, la regulación y distribución de elementos siendo a su vez proporcionales.</p>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- .row-->
+			</div>
+			<!-- .container-->
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="history">
+						<h3>Un buen diseño</h3>
+						<div class="history-details">
+							<img src="https://cdn.pixabay.com/photo/2015/09/19/14/05/web-947271_960_720.jpg" alt="" style="width: 50%;">
+							<p align="justify">Muchas veces el éxito de una página no depende solo de la información contenida allí, también depende en gran parte a un buen diseño. Un buen diseño es pensado sobre el punto de vista del usuario, es decir que esta resulte agradable, fácil de manejar, atractiva y por supuesto que no genere confusión o distracción del contenido de la página. 
+
+
+							</p>
+							<p align="justify">En el diseño es basado también en normas y directrices que van más allá de gustos personales, también es importante tener en cuenta las tendencias en el mercado.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- .row-->
+		</div>
+		<div class="container">
+				<div class="row">
+					<div class="company-focus">
+						<div class="col-md-3 col-xs-6">
+							<div class="company-mision text-center">
+								<h3>Tamaño de las imágenes</h3>
+								<!-- <img src="img/mission.jpg" alt=""> -->
+								<p align="justify">El tamaño de las imágenes es importantísimo en una página se debe tener en cuenta su peso, pues este puede determinar el tiempo de carga en la página, a su vez tener en cuenta reducir su tamaño sin bajar la calidad o distorsionarlas.</p>
+								
+							</div>
+						</div>
+						<div class="col-md-3 col-xs-6">
+							<div class="company-vision text-center">
+								<h3>Navegadores</h3>
+								<!-- <img src="img/vision.jpg" alt=""> -->
+								<p align="justify">Los navegadores son aquellas aplicaciones o programas que permiten visualizar la página web, y se debe tener en cuenta de que todos tiene configuraciones distintas, y a su vez también se pude visualizar desde otros dispositivos móviles, y puede ocurrir que se visualice de formas distintas incluso alterando el contenido de la página. </p>
+							</div>
+						</div>
+						<div class="col-md-3 col-xs-6">
+							<div class="company-vision text-center">
+								<h3>Interactividad</h3>
+								<!-- <img src="img/vision.jpg" alt=""> -->
+								<p align="justify">La interactividad de la página en cuanto a lista, formularios, enlaces y demás elementos integrados, puede hacer que la pagina más dinámica. </p>
+							</div>
+						</div>
+						<div class="col-md-3 col-xs-6">
+							<div class="company-vision text-center">
+								<h3>Otros elementos</h3>
+								<!-- <img src="img/vision.jpg" alt=""> -->
+								<p align="justify">Influye otros elementos a tener en cuenta como el color de la página, secciones y distribución del contenido.  </p>
+							</div>
+						</div>
+					</div>
+					<!--.company-focus -->
+				</div>
+				<!-- .row-->
+
+			</div>
+</body>
+</html>
