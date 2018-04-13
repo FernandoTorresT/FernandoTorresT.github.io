@@ -13,7 +13,7 @@
 	  padding: 25px;
 	}
 	.navbar  a{
-	  color: #fff;
+	  color: #;
 	}
 	.box{
 	  margin-top: 20px;
@@ -33,5 +33,10 @@
 	  background: #fff;
 	}
 	.copyright p{
+	  color: #fff;
+	}
+
+
+	.subnavbar  a{
 	  color: #fff;
 	}
