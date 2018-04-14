@@ -68,75 +68,75 @@
 	<div class="jumbotron" style="background-color: #333;">
 	  <div class="container text-left">
 	    <h2>Evaluacion fundamentos Javascript</h2>      
-	    <p></p>
+	    <p>En el siguiente encontrara una evaluacion de fundamentos de JavaScript</p>
 	  </div>
 	</div>
 	<!-- sections -->
 	
 	<form>
 	  <div class="form-group"  >
-	    <label for="inputEmail3" class="col-sm-2 col-form-label">¿Que significa HTML?</label>
+	    <label for="inputEmail3" class="col-sm-2 col-form-label">¿Indique en que sitios se puede ejecutar Javascript?</label>
 	  
 
 		<select class="custom-select form-control" id="pregunta1" placeholder="Email">
-		  <option selected value="1">Hi Make Language</option>
-		  <option value="2">HyperText Markup Language</option>
-		  <option value="3">HTML Mejor Lenguaje</option>
-		  <option value="4">Ninguna de las anteriores</option>
+		  <option selected value="1">Solo navagadores</option>
+		  <option value="2">Solo Servidores</option>
+		  <option value="3">Navegadores y servidores</option>
+		  <option value="4">Navegadores, servidores y cualquier dispositivo hardware</option>
 		</select>
 
 
-		<label for="inputEmail3" class="col-sm-4 col-form-label">¿Quien esta a cargo de los estandares Web?</label>
+		<label for="inputEmail3" class="col-sm-4 col-form-label">Describa el siguiente codigo: document.getElementById("demo").innerHTML = "Hello JavaScript";</label>
 		<select class="custom-select form-control" id="pregunta2" placeholder="Email" >
-		  <option selected value="1">Gobierno de los estados unidos</option>
-		  <option value="2">La ONU</option>
-		  <option value="3">W3C</option>
-		  <option value="4">Todas las anteriores</option>
+		  <option selected value="1">Borra el elemento demo</option>
+		  <option value="2">Ventana emergente con la palabra "Hello JavaScript"</option>
+		  <option value="3">No hace nada</option>
+		  <option value="4">Al elemento demo , le agrega el texto  "Hello JavaScript" </option>
 		</select>
 
 
-		<label for="inputEmail3" class="col-sm-4 col-form-label">¿En cuales se dividen los elementos HTML?</label>
+		<label for="inputEmail3" class="col-sm-4 col-form-label"> La llamada al código Javascript debe colocarse en:</label>
 		<select class="custom-select form-control" id="pregunta3" placeholder="Email" >
-		  <option selected value="1">Izquierda - Derecha</option>
-		  <option value="2">Elementos - Atributos</option>
+		  <option selected value="1">Puede colocarse en la sección Head o en Body</option>
+		  <option value="2">La sección Body de la página</option>
 		  <option value="3">Ninguna de las anteriores</option>
 		  <option value="4">Todas las anteriores</option>
 		</select>
 
-		<label for="inputEmail3" class="col-sm-4 col-form-label">¿Cual es la etiqueta raiz de un documento HTML?</label>
+		<label for="inputEmail3" class="col-sm-4 col-form-label">¿Cuáles de estas son marcas para la inserción del código JavaScript en las páginas HTML?</label>
 			<select class="custom-select form-control" id="pregunta4" placeholder="Email" >
-			  <option selected value="1">&ltraiz&gt</option>
-			  <option value="2">&ltroot&gt</option>
-			  <option value="3">&ltindex&gt</option>
+			  <option selected value="1">&ltscript&gt y &lt/script&gt</option>
+			  <option value="2">&ltroot&gt&lt/index&gt</option>
+			  <option value="3">&ltindex&gt&lt/index&gt</option>
 			  <option value="4">&lthtml&gt</option>
 		</select>
 
-		<label for="inputEmail3" class="col-sm-4 col-form-label">¿Que programas interpretan el html?</label>
+		<label for="inputEmail3" class="col-sm-4 col-form-label">¿Cuál es la instrucción usada para devolver un valor en una función de JavaScript?</label>
 			<select class="custom-select form-control" id="pregunta5" placeholder="Email" >
-			  <option selected value="1">Los antivirus</option>
-			  <option value="2">Las pantallas de los computadores</option>
-			  <option value="3">Los navegadores web</option>
-			  <option value="4">Ninguno de los anteriores</option>
+			  <option selected value="1">Run</option>
+			  <option value="2">Send</option>
+			  <option value="3">Return</option>
+			  <option value="4">Devolver</option>
 		</select>
 		<div class="row">
-		 		  <label for="inputEmail3" class="col-sm-2 col-form-label">Seleccione al creador de la WWW</label>
+		 		  <label for="inputEmail3" class="col-sm-2 col-form-label">Para terminar las instrucciones en Javascript se utiliza:</label>
 			      <div class="col-sm-10" id="pregunta6">
 			        <div class="form-check">
 			          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
 			          <label class="form-check-label" for="gridRadios1">
-			            Alan Turing
+			            Puntos suspensivos
 			          </label>
 			        </div>
 			        <div class="form-check">
 			          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
 			          <label class="form-check-label" for="gridRadios2">
-			            Sir Tim Berners-Lee
+			            Un punto y coma
 			          </label>
 			        </div>
 			        <div class="form-check">
 			          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
 			          <label class="form-check-label" for="gridRadios3">
-			            Richard Stallman
+			             La sentencia End
 			          </label>
 			        </div>
 			      </div>
@@ -164,17 +164,17 @@
 		
 		
 
-		if(document.getElementById("pregunta1").value == 2){
+		if(document.getElementById("pregunta1").value == 4){
 			correctas++;
 		}
 
-		if(document.getElementById("pregunta2").value == 3){
+		if(document.getElementById("pregunta2").value == 4){
 			correctas++;
 		}
 		if(document.getElementById("pregunta3").value == 2){
 			correctas++;
 		}
-		if(document.getElementById("pregunta4").value == 4){
+		if(document.getElementById("pregunta4").value == 1){
 			correctas++;
 		}
 		if(document.getElementById("pregunta5").value == 3){
@@ -184,10 +184,9 @@
 		if(document.getElementById("gridRadios2").checked){
 
 			correctas++;
-			//border-color: ;
 		}
 
-		//alert("Usted tuvo estas preguntas correctas: "+correctas);
+		alert("Usted tuvo estas preguntas correctas: "+correctas);
 	}
 	</script>
 

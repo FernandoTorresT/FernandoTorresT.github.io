@@ -68,75 +68,75 @@
 	<div class="jumbotron" style="background-color: #333;">
 	  <div class="container text-left">
 	    <h2>Evaluacion fundamentos Servidores web</h2>      
-	    <p></p>
+	    <p>En el siguiente documento encontrara un examen sobre fundamentos de servidores web.</p>
 	  </div>
 	</div>
 	<!-- sections -->
 	
 	<form>
 	  <div class="form-group"  >
-	    <label for="inputEmail3" class="col-sm-2 col-form-label">¿Que significa HTML?</label>
+	    <label for="inputEmail3" class="col-sm-2 col-form-label">¿Que es un servidor web?</label>
 	  
 
 		<select class="custom-select form-control" id="pregunta1" placeholder="Email">
-		  <option selected value="1">Hi Make Language</option>
-		  <option value="2">HyperText Markup Language</option>
-		  <option value="3">HTML Mejor Lenguaje</option>
+		  <option selected value="1">Es un programa para manejo de versiones</option>
+		  <option value="2">Programa que acepta peticiones y realiza comunicacion http</option>
+		  <option value="3">Un IDE integrado de desarrollo</option>
 		  <option value="4">Ninguna de las anteriores</option>
 		</select>
 
 
-		<label for="inputEmail3" class="col-sm-4 col-form-label">¿Quien esta a cargo de los estandares Web?</label>
+		<label for="inputEmail3" class="col-sm-4 col-form-label">¿Generalmente protocolos de comunicacion de un servidor?</label>
 		<select class="custom-select form-control" id="pregunta2" placeholder="Email" >
-		  <option selected value="1">Gobierno de los estados unidos</option>
-		  <option value="2">La ONU</option>
-		  <option value="3">W3C</option>
+		  <option selected value="1">Protocolo libre</option>
+		  <option value="2">protocolo seguro</option>
+		  <option value="3">http - https</option>
 		  <option value="4">Todas las anteriores</option>
 		</select>
 
 
-		<label for="inputEmail3" class="col-sm-4 col-form-label">¿En cuales se dividen los elementos HTML?</label>
+		<label for="inputEmail3" class="col-sm-4 col-form-label">¿Define servicio de alojamiento en la nube?</label>
 		<select class="custom-select form-control" id="pregunta3" placeholder="Email" >
-		  <option selected value="1">Izquierda - Derecha</option>
-		  <option value="2">Elementos - Atributos</option>
+		  <option selected value="1">Control de versiones</option>
+		  <option value="2">Hosting</option>
 		  <option value="3">Ninguna de las anteriores</option>
 		  <option value="4">Todas las anteriores</option>
 		</select>
 
-		<label for="inputEmail3" class="col-sm-4 col-form-label">¿Cual es la etiqueta raiz de un documento HTML?</label>
+		<label for="inputEmail3" class="col-sm-4 col-form-label">¿Cuáles son los tipos de servidores que existen?</label>
 			<select class="custom-select form-control" id="pregunta4" placeholder="Email" >
-			  <option selected value="1">&ltraiz&gt</option>
-			  <option value="2">&ltroot&gt</option>
-			  <option value="3">&ltindex&gt</option>
-			  <option value="4">&lthtml&gt</option>
+			  <option selected value="1">archivo, impresiones, correo, fax, telefonía, proxy, RAS, uso, web, BD, reserva, noticias, FTP, Groupware, de listas, IRC, telnet, audio/video..</option>
+			  <option value="2">Unix, Windows 2000, Windows 95/98</option>
+			  <option value="3">POST, GET, Cookies, Sesiones, Porcesamiento, Servidor....</option>
+			  <option value="4">Todas las anteriores</option>
 		</select>
 
-		<label for="inputEmail3" class="col-sm-4 col-form-label">¿Que programas interpretan el html?</label>
+		<label for="inputEmail3" class="col-sm-4 col-form-label">¿Qué significan las siglas FTP?</label>
 			<select class="custom-select form-control" id="pregunta5" placeholder="Email" >
-			  <option selected value="1">Los antivirus</option>
-			  <option value="2">Las pantallas de los computadores</option>
-			  <option value="3">Los navegadores web</option>
+			  <option selected value="1">Lenguaje de hipertexto sobre texto</option>
+			  <option value="2"> Servidor de nombre por dominio</option>
+			  <option value="3">File Transfer Protocol</option>
 			  <option value="4">Ninguno de los anteriores</option>
 		</select>
 		<div class="row">
-		 		  <label for="inputEmail3" class="col-sm-2 col-form-label">Seleccione al creador de la WWW</label>
+		 		  <label for="inputEmail3" class="col-sm-2 col-form-label">¿Qúe lenguajes utiliza un servidor web como programación?</label>
 			      <div class="col-sm-10" id="pregunta6">
 			        <div class="form-check">
 			          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
 			          <label class="form-check-label" for="gridRadios1">
-			            Alan Turing
+			            PHP,JAVA ETC
 			          </label>
 			        </div>
 			        <div class="form-check">
 			          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
 			          <label class="form-check-label" for="gridRadios2">
-			            Sir Tim Berners-Lee
+			            SQL
 			          </label>
 			        </div>
 			        <div class="form-check">
 			          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
 			          <label class="form-check-label" for="gridRadios3">
-			            Richard Stallman
+			            Español e ingles.
 			          </label>
 			        </div>
 			      </div>
@@ -174,20 +174,20 @@
 		if(document.getElementById("pregunta3").value == 2){
 			correctas++;
 		}
-		if(document.getElementById("pregunta4").value == 4){
+		if(document.getElementById("pregunta4").value == 1){
 			correctas++;
 		}
 		if(document.getElementById("pregunta5").value == 3){
 			correctas++;
 		}
 
-		if(document.getElementById("gridRadios2").checked){
+		if(document.getElementById("gridRadios1").checked){
 
 			correctas++;
 			//border-color: ;
 		}
 
-		//alert("Usted tuvo estas preguntas correctas: "+correctas);
+		alert("Usted tuvo estas preguntas correctas: "+correctas);
 	}
 	</script>
 
