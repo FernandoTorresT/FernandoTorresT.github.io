@@ -68,75 +68,75 @@
 	<div class="jumbotron" style="background-color: #333;">
 	  <div class="container text-left">
 	    <h2>Evaluacion fundamentos CSS</h2>      
-	    <p></p>
+	    <p>En este espacio encontrara una prueba sobre fundamentos de CSS</p>
 	  </div>
 	</div>
 	<!-- sections -->
 	
 	<form>
 	  <div class="form-group"  >
-	    <label for="inputEmail3" class="col-sm-2 col-form-label">¿Que significa HTML?</label>
+	    <label for="inputEmail3" class="col-sm-2 col-form-label">¿Que significa CSS?</label>
 	  
 
 		<select class="custom-select form-control" id="pregunta1" placeholder="Email">
-		  <option selected value="1">Hi Make Language</option>
+		  <option selected value="1">Ninguna de las anteriores</option>
 		  <option value="2">HyperText Markup Language</option>
-		  <option value="3">HTML Mejor Lenguaje</option>
-		  <option value="4">Ninguna de las anteriores</option>
+		  <option value="3">Current Services Software</option>
+		  <option value="4">Cascading Stylesheets</option>
 		</select>
 
 
-		<label for="inputEmail3" class="col-sm-4 col-form-label">¿Quien esta a cargo de los estandares Web?</label>
+		<label for="inputEmail3" class="col-sm-4 col-form-label">¿Cuales son las partes de una sentencia CSS?</label>
 		<select class="custom-select form-control" id="pregunta2" placeholder="Email" >
-		  <option selected value="1">Gobierno de los estados unidos</option>
-		  <option value="2">La ONU</option>
-		  <option value="3">W3C</option>
-		  <option value="4">Todas las anteriores</option>
+		  <option selected value="1">Selector - Declaracion</option>
+		  <option value="2">LEncabezado - Final</option>
+		  <option value="3">Boby - Aside</option>
+		  <option value="4">Puntero - Especificacion</option>
 		</select>
 
 
-		<label for="inputEmail3" class="col-sm-4 col-form-label">¿En cuales se dividen los elementos HTML?</label>
+		<label for="inputEmail3" class="col-sm-4 col-form-label">¿Que posee una declaracion CSS?</label>
 		<select class="custom-select form-control" id="pregunta3" placeholder="Email" >
-		  <option selected value="1">Izquierda - Derecha</option>
-		  <option value="2">Elementos - Atributos</option>
-		  <option value="3">Ninguna de las anteriores</option>
+		  <option selected value="1">HTML - CSS</option>
+		  <option value="2">Comando - Sentencia</option>
+		  <option value="3">Propiedad - Valor</option>
 		  <option value="4">Todas las anteriores</option>
 		</select>
 
-		<label for="inputEmail3" class="col-sm-4 col-form-label">¿Cual es la etiqueta raiz de un documento HTML?</label>
+		<label for="inputEmail3" class="col-sm-4 col-form-label">¿Ejemplo de selector Class?</label>
 			<select class="custom-select form-control" id="pregunta4" placeholder="Email" >
-			  <option selected value="1">&ltraiz&gt</option>
-			  <option value="2">&ltroot&gt</option>
-			  <option value="3">&ltindex&gt</option>
-			  <option value="4">&lthtml&gt</option>
+			  <option selected value="1">.center</option>
+			  <option value="2">*center</option>
+			  <option value="3">--center</option>
+			  <option value="4">/center</option>
 		</select>
 
-		<label for="inputEmail3" class="col-sm-4 col-form-label">¿Que programas interpretan el html?</label>
+		<label for="inputEmail3" class="col-sm-4 col-form-label">¿Indique cual de los siguientes es un marco o framework CSS</label>
 			<select class="custom-select form-control" id="pregunta5" placeholder="Email" >
-			  <option selected value="1">Los antivirus</option>
-			  <option value="2">Las pantallas de los computadores</option>
-			  <option value="3">Los navegadores web</option>
-			  <option value="4">Ninguno de los anteriores</option>
+			  <option selected value="1">JAVA</option>
+			  <option value="2">Scala</option>
+			  <option value="3">Bootstrap</option>
+			  <option value="4">Vaadin</option>
 		</select>
 		<div class="row">
-		 		  <label for="inputEmail3" class="col-sm-2 col-form-label">Seleccione al creador de la WWW</label>
+		 		  <label for="inputEmail3" class="col-sm-2 col-form-label">Seleccione el ejemplo de pseudo-clase</label>
 			      <div class="col-sm-10" id="pregunta6">
 			        <div class="form-check">
 			          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
 			          <label class="form-check-label" for="gridRadios1">
-			            Alan Turing
+			            a:visited
 			          </label>
 			        </div>
 			        <div class="form-check">
 			          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
 			          <label class="form-check-label" for="gridRadios2">
-			            Sir Tim Berners-Lee
+			            a--visited
 			          </label>
 			        </div>
 			        <div class="form-check">
 			          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
 			          <label class="form-check-label" for="gridRadios3">
-			            Richard Stallman
+			            a sudo visited
 			          </label>
 			        </div>
 			      </div>
@@ -164,30 +164,30 @@
 		
 		
 
-		if(document.getElementById("pregunta1").value == 2){
+		if(document.getElementById("pregunta1").value == 4){
 			correctas++;
 		}
 
-		if(document.getElementById("pregunta2").value == 3){
+		if(document.getElementById("pregunta2").value == 1){
 			correctas++;
 		}
-		if(document.getElementById("pregunta3").value == 2){
+		if(document.getElementById("pregunta3").value == 3){
 			correctas++;
 		}
-		if(document.getElementById("pregunta4").value == 4){
+		if(document.getElementById("pregunta4").value == 1){
 			correctas++;
 		}
 		if(document.getElementById("pregunta5").value == 3){
 			correctas++;
 		}
 
-		if(document.getElementById("gridRadios2").checked){
+		if(document.getElementById("gridRadios1").checked){
 
 			correctas++;
 			//border-color: ;
 		}
 
-		//alert("Usted tuvo estas preguntas correctas: "+correctas);
+		alert("Usted tuvo estas preguntas correctas: "+correctas);
 	}
 	</script>
 

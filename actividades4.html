@@ -68,75 +68,75 @@
 	<div class="jumbotron" style="background-color: #333;">
 	  <div class="container text-left">
 	    <h2>Evaluacion fundamentos Git</h2>      
-	    <p></p>
+	    <p>A continuacion encontrar preguntas referentes al sistema de control de versiones Git</p>
 	  </div>
 	</div>
 	<!-- sections -->
 	
 	<form>
 	  <div class="form-group"  >
-	    <label for="inputEmail3" class="col-sm-2 col-form-label">¿Que significa HTML?</label>
+	    <label for="inputEmail3" class="col-sm-2 col-form-label">¿Para que sirve Git?</label>
 	  
 
 		<select class="custom-select form-control" id="pregunta1" placeholder="Email">
-		  <option selected value="1">Hi Make Language</option>
-		  <option value="2">HyperText Markup Language</option>
-		  <option value="3">HTML Mejor Lenguaje</option>
+		  <option selected value="1">Para programar</option>
+		  <option value="2">Para crear vistas web</option>
+		  <option value="3">Como sistema de control de versiones</option>
 		  <option value="4">Ninguna de las anteriores</option>
 		</select>
 
 
-		<label for="inputEmail3" class="col-sm-4 col-form-label">¿Quien esta a cargo de los estandares Web?</label>
+		<label for="inputEmail3" class="col-sm-4 col-form-label">¿Quien fue el creador de git?</label>
 		<select class="custom-select form-control" id="pregunta2" placeholder="Email" >
-		  <option selected value="1">Gobierno de los estados unidos</option>
-		  <option value="2">La ONU</option>
-		  <option value="3">W3C</option>
-		  <option value="4">Todas las anteriores</option>
+		  <option selected value="1">Linus Tolvars</option>
+		  <option value="2">Bill Gates</option>
+		  <option value="3">Alan Turing</option>
+		  <option value="4">La banda de los cuatro</option>
 		</select>
 
 
-		<label for="inputEmail3" class="col-sm-4 col-form-label">¿En cuales se dividen los elementos HTML?</label>
+		<label for="inputEmail3" class="col-sm-4 col-form-label">¿De los siguientes cuales son comandos GIT?</label>
 		<select class="custom-select form-control" id="pregunta3" placeholder="Email" >
-		  <option selected value="1">Izquierda - Derecha</option>
-		  <option value="2">Elementos - Atributos</option>
-		  <option value="3">Ninguna de las anteriores</option>
+		  <option selected value="1">borrar - archivo - add - coperar</option>
+		  <option value="2">shared - atributo</option>
+		  <option value="3">git init - add - clone - commit </option>
 		  <option value="4">Todas las anteriores</option>
 		</select>
 
-		<label for="inputEmail3" class="col-sm-4 col-form-label">¿Cual es la etiqueta raiz de un documento HTML?</label>
+		<label for="inputEmail3" class="col-sm-4 col-form-label">¿De las siguientes afirmaciones cuales es correcta?</label>
 			<select class="custom-select form-control" id="pregunta4" placeholder="Email" >
-			  <option selected value="1">&ltraiz&gt</option>
-			  <option value="2">&ltroot&gt</option>
-			  <option value="3">&ltindex&gt</option>
-			  <option value="4">&lthtml&gt</option>
+			  <option selected value="1">Git es un lenguaje de programacion</option>
+			  <option value="2">Git es un IDE de desarrollo</option>
+			  <option value="3">Git es distribuido</option>
+			  <option value="4">Git es centralizado</option>
 		</select>
 
-		<label for="inputEmail3" class="col-sm-4 col-form-label">¿Que programas interpretan el html?</label>
+		<label for="inputEmail3" class="col-sm-4 col-form-label">¿De los siguientes cuales son conceptos de git?</label>
 			<select class="custom-select form-control" id="pregunta5" placeholder="Email" >
-			  <option selected value="1">Los antivirus</option>
-			  <option value="2">Las pantallas de los computadores</option>
-			  <option value="3">Los navegadores web</option>
+			  <option selected value="1">Push , Pull , Branch</option>
+			  <option value="2">Servidor web, firewall</option>
+			  <option value="3">expresiones lambda</option>
 			  <option value="4">Ninguno de los anteriores</option>
 		</select>
 		<div class="row">
-		 		  <label for="inputEmail3" class="col-sm-2 col-form-label">Seleccione al creador de la WWW</label>
+		 		  <label for="inputEmail3" class="col-sm-2 col-form-label">Licencia de Git</label>
 			      <div class="col-sm-10" id="pregunta6">
 			        <div class="form-check">
 			          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
 			          <label class="form-check-label" for="gridRadios1">
-			            Alan Turing
+			            Copy Left
 			          </label>
 			        </div>
 			        <div class="form-check">
 			          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
 			          <label class="form-check-label" for="gridRadios2">
-			            Sir Tim Berners-Lee
+			            GNU GPL v2
 			          </label>
 			        </div>
 			        <div class="form-check">
 			          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
 			          <label class="form-check-label" for="gridRadios3">
-			            Richard Stallman
+			            Copy right
 			          </label>
 			        </div>
 			      </div>
@@ -164,20 +164,20 @@
 		
 		
 
-		if(document.getElementById("pregunta1").value == 2){
+		if(document.getElementById("pregunta1").value == 3){
 			correctas++;
 		}
 
-		if(document.getElementById("pregunta2").value == 3){
+		if(document.getElementById("pregunta2").value == 1){
 			correctas++;
 		}
-		if(document.getElementById("pregunta3").value == 2){
+		if(document.getElementById("pregunta3").value == 3){
 			correctas++;
 		}
-		if(document.getElementById("pregunta4").value == 4){
+		if(document.getElementById("pregunta4").value == 3){
 			correctas++;
 		}
-		if(document.getElementById("pregunta5").value == 3){
+		if(document.getElementById("pregunta5").value == 1){
 			correctas++;
 		}
 
@@ -187,7 +187,7 @@
 			//border-color: ;
 		}
 
-		//alert("Usted tuvo estas preguntas correctas: "+correctas);
+		alert("Usted tuvo estas preguntas correctas: "+correctas);
 	}
 	</script>
 
