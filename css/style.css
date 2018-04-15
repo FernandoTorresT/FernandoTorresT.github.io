@@ -40,3 +40,12 @@
 	.subnavbar  a{
 	  color: #fff;
 	}
+
+	aside { 
+    float: left;
+  	width: 25%;
+  	margin-left: 5
+	}
+
+	
+}
